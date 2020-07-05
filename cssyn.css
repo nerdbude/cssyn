@@ -1,0 +1,39 @@
+/*
+8"""8 8"""" 8"""8  8""""8 8""""8   8   8 8""""8 8""""
+8   8 8     8   8  8    8 8    8   8   8 8    8 8
+8e  8 8eeee 8eee8e 8e   8 8eeee8ee 8e  8 8e   8 8eeee
+88  8 88    88   8 88   8 88     8 88  8 88   8 88
+88  8 88    88   8 88   8 88     8 88  8 88   8 88
+88  8 88eee 88   8 88eee8 88eeeee8 88ee8 88eee8 88eee
+
+[website] https://www.nerdbude.com
+[mail] post@nerdbude.com
+[twitter] @PH_0x17
+[github] https://www.github.com/nerdbude
+*/
+
+
+
+/* code block main style */
+
+#cssyn {
+	background: transparent;
+	padding: 20px; 0 ;20px; 10px; 
+	margin: 2px 0 2px 0;
+	border-style: solid;
+	border-color: #afd75f;
+	border-width: 1px;
+	}
+
+/* single syntax elements as classes */
+/* use in html: <pre class="unix-shell"> $> sudo apt-get install </pre> */
+
+.unixshell	{color: #87afd7; font-style: italic;}
+.comment 	{color: #8a8a8a;}
+.url		{color: #00ffd7; font-style: italic; text-decoration: underline;}
+.value		{color: #875fff;}
+.header-file	{color: #afd75f;}
+.selector	{color: #ff5f5f;}
+.subselector	{color: #ffff5f;}
+
+
