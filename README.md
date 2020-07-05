@@ -60,9 +60,9 @@ Within the code block you can use the `<span>` tag to highlight code.
 
 This is how it looks like in HTML:
 
-![unixshell class](https://www.github.com/nerdbude/cssyn/blob/master/unix_shell.png)
+![unixshell class](/images/unix_shell.png)
 
-![cpp_hello_world](https://www.github.com/nerdbude/cssyn/blob/master/cpp_hello_world.png)
+![cpp_hello_world](/images/cpp_hello_world.png)
 
 ## want to do
 
