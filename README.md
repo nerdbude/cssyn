@@ -10,7 +10,10 @@ It doesn´t highlight full automatic. You want syntax-highlighting - you have to
 
 Just copy the cssyn.css to your /css folder and link it in your html-file with:
 
-'''<link rel="stylesheet" type="text/css" href="/cssyn.css">'''
+``` 
+<link rel="stylesheet" type="text/css" href="/cssyn.css"> 
+
+```
 
 or copy the CSS Code in your existing *style.css* file.
 
@@ -46,10 +49,10 @@ for
 
 ## usage
 
-You can use the syntax-highlighting with the '''<div id="cssyn"> </div>''' tag.
+You can use the syntax-highlighting with the `<div id="cssyn"> </div>` tag.
 This contain the code block.
 
-Within the code block you can use the '''<span>''' tag to highlight code.
+Within the code block you can use the `<span>` tag to highlight code.
 
 *example:*
 
