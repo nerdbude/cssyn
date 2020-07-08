@@ -49,6 +49,9 @@ for
 
 ## usage
 
+Before you highlight the code you can set a small label for the codebox.
+Just use `<span class="label">C++</span>` and the language you choose will appear in a small flag on the top of the box.
+
 You can use the syntax-highlighting with the `<div id="cssyn"> </div>` tag.
 This contain the code block.
 
@@ -60,9 +63,7 @@ Within the code block you can use the `<span>` tag to highlight code.
 
 This is how it looks like in HTML:
 
-![unixshell class](/images/unix_shell.png)
-
-![cpp_hello_world](/images/cpp_hello_world.png)
+![cpp_hello_world](/images/code_cpp.png)
 
 ## want to do
 
