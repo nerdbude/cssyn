@@ -1,5 +1,4 @@
-# cssyn 
-## (alpha_ver.0.2)
+# cssyn (alpha_ver.0.2)
 
 *A syntax highlighter written in CSS without any JavaScript*
 
@@ -13,7 +12,6 @@ Just copy the cssyn.css to your /css folder and link it in your html-file with:
 
 ``` 
 <link rel="stylesheet" type="text/css" href="/cssyn.css"> 
-
 ```
 
 or copy the CSS Code in your existing *style.css* file.
