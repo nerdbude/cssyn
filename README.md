@@ -1,4 +1,5 @@
-# cssyn (alpha_ver.0.1)
+# cssyn 
+## (alpha_ver.0.2)
 
 *A syntax highlighter written in CSS without any JavaScript*
 
@@ -70,5 +71,6 @@ This is how it looks like in HTML:
 * add more colorschemes
 * add more classes for highlighting
 * add single language classes
+* add linenumbers
 
 ... a lot to do 
