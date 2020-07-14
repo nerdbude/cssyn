@@ -12,6 +12,10 @@
 [github] https://www.github.com/nerdbude
 */
 
+/*just for demo / example.html*/
+#body {background-color: #292929;
+       color: #ffffff;}
+
 
 
 /* code block main style */
@@ -26,10 +30,12 @@
 	counter-reset: line;
 	}
 
-pre    {font-family: 'Share Tech Mono', monospace;}
-code   {font-family: 'Share Tech Mono', monospace;}
+pre    {font-family: 'Share Tech Mono', monospace;
+	padding-left: 15px;}
 
-code::before    {content: counter(line, decimal-leading-zero);
+ln     {font-family: 'Share Tech Mono', monospace;}
+
+ln::before    {content: counter(line, decimal-leading-zero);
 		 background: #282828;
 		 color: #444444;
 		 padding: 0 10px 0 0;
