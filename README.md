@@ -4,9 +4,11 @@
 
 ![cpp_hello_world](/images/code_cpp.png)
 
-I don´t want any JS on my website but I want a syntax-highlighter with all the funky colors of the iwtb-colorscheme. So here is the cssyn (or css syntax highlighter). 
+I don´t want any JS on my website but I want a syntax-highlighter with all the funky colors of the [iwtb-colorscheme](https://github.com/nerdbude/iwtb). So here is the cssyn (or css syntax highlighter). 
 
 It doesn´t highlight full automatic. You want syntax-highlighting - you have to do it yourself. Yes it is a bit more work on your website but it is totally worth it ... or not ... your decision.
+
+For a live-demonstration have a look at the NERDBUDE ([cssyn in action at NERDBUDE.COM](https://www.nerdbude.com/cssyn.html)) website.
 
 ## Installation
 
@@ -59,10 +61,7 @@ Now you can hightlight the code with a `<span>` tag and an class name:
 
 ## want to do
 
-[x] add linenumbers
-[x] iwtb color-scheme
-
-[ ] add more colorschemes
-[ ] add more classes for highlighting
-[ ] add single language classes
+* add more colorschemes
+* add more classes for highlighting
+* add single language classes
 
