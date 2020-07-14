@@ -2,6 +2,8 @@
 
 *A syntax highlighter written in CSS without any JavaScript*
 
+![cpp_hello_world](/images/code_cpp.png)
+
 I don´t want any JS on my website but I want a syntax-highlighter with all the funky colors of the iwtb-colorscheme. So here is the cssyn (or css syntax highlighter). 
 
 It doesn´t highlight full automatic. You want syntax-highlighting - you have to do it yourself. Yes it is a bit more work on your website but it is totally worth it ... or not ... your decision.
@@ -20,55 +22,47 @@ or copy the CSS Code in your existing *style.css* file.
 
 The highlighting itself is defined in classes:
 
-* .unixshell
+* .unixshell (if you want to show a terminal command)
 * .comment
 * .url
 * .header-file
 * .selector
 * .subselector
 * .value
+* .unit
 
-*.unixshell*
-If you want to show a terminal command you can use this class.
 
-*.comment*
-This class is for the comments.
-
-*.url*
-URL highlighting within code 
-
-*.header-file*
-i.e. the include in C++ code
-
-*.selector*
-the class for stuff like if, then, else etc.
-
-*.subselector* 
-for
-
-## usage
+## how to use it
 
 Before you highlight the code you can set a small label for the codebox.
 Just use `<span class="label">C++</span>` and the language you choose will appear in a small flag on the top of the box.
 
-You can use the syntax-highlighting with the `<div id="cssyn"> </div>` tag.
+You can use the syntax-highlighting within the `<div id="cssyn"> </div>` tag.
 This contain the code block.
 
-Within the code block you can use the `<span>` tag to highlight code.
+You define the lines included in numbering with te following ln-tag.
+Every line between these text within the cssyn div container get a line number.
+`<ln>   </ln>`
+
+Now you can hightlight the code with a `<span>` tag and an class name:
+`<span class="selector"> int </span>`
+
 
 *example:*
+```
+<span class="label"> C++ </span>
+<div id="cssyn">
+	<ln><span class="comment"> /* HELLO WORLD */ </span></ln>
+</div>
 
-`<span class="comment"> /* simple hello world */ </span>`
-
-This is how it looks like in HTML:
-
-![cpp_hello_world](/images/code_cpp.png)
+```
 
 ## want to do
 
-* add more colorschemes
-* add more classes for highlighting
-* add single language classes
-* add linenumbers
+[x] add linenumbers
+[x] iwtb color-scheme
 
-... a lot to do 
+[ ] add more colorschemes
+[ ] add more classes for highlighting
+[ ] add single language classes
+

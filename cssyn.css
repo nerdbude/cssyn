@@ -18,13 +18,26 @@
 
 #cssyn {
 	background: transparent;
-	padding: 20px; 0 ;20px; 10px; 
+	padding: 15px 0 15px 0; 
 	margin: 0 0 2px 0;
 	border-style: solid;
 	border-color: #afd75f;
 	border-width: 1px;
+	counter-reset: line;
 	}
 
+pre    {font-family: 'Share Tech Mono', monospace;}
+code   {font-family: 'Share Tech Mono', monospace;}
+
+code::before    {content: counter(line, decimal-leading-zero);
+		 background: #282828;
+		 color: #444444;
+		 padding: 0 10px 0 0;
+		 margin: 0 20px 0 0;
+		 border-right: 1px solid #444444;
+		 counter-increment: line;
+		 -webkit-user-select: none;
+	 	}	
 
 .label {background-color: #afd75f;
 	border-style: solid;
@@ -44,5 +57,5 @@
 .header-file	{color: #afd75f;}
 .selector	{color: #ff5f5f;}
 .subselector	{color: #ffff5f;}
-
+.unit		{color: #ff5f87;}
 
